@@ -75,9 +75,9 @@ I had chosen to filter the data to only looking at zip codes in **Boise, Idaho**
 
 I had 9 ZipCodes to model. I modeled with SARIMAX and forecasted a confidence interval. I also used the average 2 year ROI (return on investment) percentage so each zip code could be compared to determine the "best" ZipCode to invest in. After finally completing this process, the top 5 ZipCodes with the highest 2 year ROI were determined.
 
-- The ROI equation includes dividing by initial predicted average that varies by zip code which is why percentage may not be clearly represent the graph. The best graph was that of the ZipCode 83705.
+- The ROI equation includes dividing by initial predicted average that varies by zip code which is why percentage may not be clearly represent the graph. The best graph was that of the ZipCode 83703.
 
-<img src="images/forecast.png">
+<img src="images/83703.png">
 
 #### Best ZipCodes
 
