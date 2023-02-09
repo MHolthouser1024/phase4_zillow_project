@@ -89,10 +89,28 @@ I had 9 ZipCodes to model. I modeled with SARIMAX and forecasted a confidence in
 
 #### ZipCode Recommendations
 
-- The ROI percentage represents the appreciation in property value of a home in Boise, ID over a 2 year span. I believe even though we are just analyzing the ROI in the short term, the value of homes in Boise will continue to rise. My recommendation is to purchase as many homes in these areas as possible. They will only continue to increase in value. 
+- The ROI percentage represents the appreciation in property value of a home in Boise, ID over a 2 year span. I believe even though we are just analyzing the ROI in the short term, the value of homes in Boise will continue to rise. 
+- Though all top 5 zip codes have forecasted to be profitable, I recommend investing in properties in the 83703 first. The inital invest is low and the profit margin is excellent, and doesn't show signs of slowing down. 
 
 ### Future Work
 ---
 
 In the future, I would like to look into other cities in Idaho to see how they compare to the state's capitol. Additionally, future work could include using a greater range than 0 and 2 on pdq parameters in SARIMAX modeling. 
 
+I would also like to see how idaho compares to other up and coming States in the US.
+
+### Repository Structure
+---
+
+```
+├── images
+├── time-series
+├── .gitignore
+├── Presentation.pdf
+├── Presentation.pptx
+├── README.ipynb
+├── README.md
+├── final_notebook.ipynb
+├── final_notebook.ipynb
+├── 
+```
