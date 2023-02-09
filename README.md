@@ -111,6 +111,5 @@ I would also like to see how idaho compares to other up and coming States in the
 ├── README.ipynb
 ├── README.md
 ├── final_notebook.ipynb
-├── final_notebook.ipynb
-├── 
+├── final_notebook.pdf
 ```
