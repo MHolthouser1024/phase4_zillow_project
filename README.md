@@ -75,20 +75,26 @@ I had chosen to filter the data to only looking at zip codes in **Boise, Idaho**
 
 I had 9 ZipCodes to model. I modeled with SARIMAX and forecasted a confidence interval. I also used the average 2 year ROI (return on investment) percentage so each zip code could be compared to determine the "best" ZipCode to invest in. After finally completing this process, the top 5 ZipCodes with the highest 2 year ROI were determined.
 
-- The ROI equation includes dividing by initial predicted average that varies by zip code which is why percentage may not be clearly represent the graph. The best graph was that of the ZipCode 83703.
+- The ROI equation includes dividing by initial predicted average that varies by zip code which is why percentage may not be clearly represent the graph. 
+- The most accurate model was for zip code 83706, which had a root mean squared error of 924.03. Which means that the projected values will deviate from the actual values by 924.03 dollars. 
+- I have chosen 83703 as the "best" zip code to invest in, because of the higher 2 year ROI. **The RMSE of 83703 was 1495.92 with an AIC of 544.537.** 
+
 
 <img src="images/83703.png">
 
+- This image is the dynamic forecast of zip code 83703
+
 #### Best ZipCodes
 
-1. 83703: **24%** 
-2. 83702: **22%**
-3. 83705: **20%**
-4. 83704: **18%**
-5. 83706: **18%**
+1. 83703: **24%** 2 year ROI 
+2. 83702: **22%** 2 year ROI
+3. 83705: **20%** 2 year ROI
+4. 83704: **18%** 2 year ROI
+5. 83706: **18%** 2 year ROI
 
 #### ZipCode Recommendations
 
+- I had encountered the trade off of recommending the zip code that had the better performing model but wouldn't have the highest 2 year ROI. Or Choosing the model that had a the highest 2 year ROI but shown a higher RMSE score. I went with option 2, and chose the higher 2 year ROI because even though the RMSE was higher, the stakeholders for this particular project were mostly concerned with investing in properties with the high ROI. 
 - The ROI percentage represents the appreciation in property value of a home in Boise, ID over a 2 year span. I believe even though we are just analyzing the ROI in the short term, the value of homes in Boise will continue to rise. 
 - Though all top 5 zip codes have forecasted to be profitable, I recommend investing in properties in the 83703 first. The inital invest is low and the profit margin is excellent, and doesn't show signs of slowing down. 
 
